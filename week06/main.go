@@ -2,13 +2,18 @@ package main
 
 import (
 	"fmt"
-	"math"
 	"reflect"
-	"strings"
 )
 
 func main() {
 	i := 55
-	var f float32 = 4.30
-	fmt.Println(reflect.TypeOf(f), reflect.TypeOf(i))s
+	f := 12.9
+	var b bool
+	fmt.Printf("valuse i : %d, value f : %f\n", i, f)
+	//fmt.Printf("%d + = %f", i, i)
+	fmt.Printf("%f\n", float64(i)*f)
+	fmt.Println(reflect.TypeOf(i))
+	fmt.Println(reflect.TypeOf(f))
+	fmt.Println(reflect.TypeOf(float64(i)))
+	fmt.Printf("%t", b)
 }
